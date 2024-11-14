@@ -17,7 +17,7 @@ def enviar_email(
 
 if __name__ == '__main__':
     enviar_email(
-        destinatario='lucas.mal2005@gmail.com',
+        destinatario='',
         assunto='Dados Linkedin',
         corpo='Realizada busca de dados de pessoas no linkedin<br>Segue planilha...',
         arquivo=r'C:\RPA\LINKEDIN\assets\csv\dados_linkedin.csv'
